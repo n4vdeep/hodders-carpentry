@@ -113,13 +113,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #header .logo {
-    font-size: 16px;
+    font-size: 23px;
   }
 
   #header a {
     font-size: 22px;
   }
 }
+
+@media (max-width: 375px) {
+  #header .logo {
+      font-size: 14px;
+    }
+  }
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -651,6 +657,19 @@ section {
     text-align: center;
   }
 }
+
+@media (max-width: 375px) {
+  .about .content p {
+    font-size: 17px;
+    padding: 0 30px;
+  }
+
+  .about .icon-boxes .icon-box p {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width )
 
 
 /*--------------------------------------------------------------
