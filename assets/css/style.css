@@ -526,12 +526,13 @@ section {
 
 @media (max-width: 992px) {
   .section-title h5:last-child {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 375px) {
   .section-title h2 {
+    padding-top: 20px;
     font-size: 24px;
   }
 
@@ -540,7 +541,7 @@ section {
   }
 
   .section-title h5:last-child {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 
